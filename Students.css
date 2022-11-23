@@ -1,0 +1,100 @@
+/* .students{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height:10vh;
+   
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    margin-bottom: 8vh;
+    border-radius: 20px;
+    background-color: rgb(64, 103, 140);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.students h1{
+    font-weight: bolder;
+    color: white;
+    font-size:15px
+}
+.allstudents{
+    width: 50vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} */
+
+.no{
+
+    font-size: larger;
+    color: aliceblue;
+    /* background-color: brown; */
+    width: 20vw;
+    text-align: center;
+}
+.allstudents{
+    /* width:50vw;*/
+    /* height: 20vh;  */
+    height: 65vh;
+    width: 33vw;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    background-color: rgb(64, 103, 140);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow-y: scroll;
+    
+    
+}
+.student{
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    background-color:  #131128;
+    border: solid 2px white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin: 0;
+}
+.stutitle{
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    background-color:  #050416;
+    border: solid 2px white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.stutitle h1{
+    font-size: large;
+    color: aliceblue;
+    /* background-color: brown; */
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    /* border: solid 2px white; */
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.student h1{
+    font-size: small;
+    color: aliceblue;
+    /* background-color: brown; */
+    width: 20vw;
+    text-align: center;
+}

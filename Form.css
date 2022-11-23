@@ -1,0 +1,50 @@
+.allform{
+    height: 65vh;
+    width: 31vw;
+    /* background-color: rgb(64, 103, 140); */
+    background: linear-gradient(rgba(18, 18, 18, 0.002),rgb(69, 90, 137)) ,url(/src/images/bgs/istockphoto-1132593892-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: grey; */
+   position: absolute;
+   border-radius: 5px;
+}
+
+
+.student_form h1{
+    font-size: 2em;
+    color: white;
+}
+.student_form{
+    margin-top: 4.5%;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.submit_button{
+    background-color: #928bf0;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0ch;
+    cursor: pointer;
+    }
+    .student_form button:hover{
+        background-color:  #131128;
+        transform: scale(1.1);
+      }
+.student_form input{
+    border-radius: 8px;
+    height: 30px;
+width: 70%;
+    filter: drop-shadow(2px 2px 2px black);
+}
